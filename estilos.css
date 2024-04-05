@@ -1,0 +1,29 @@
+body{
+    max-width: 35%;
+    margin: 0 auto;
+    justify-content: center;
+    font-family: "Reddit Mono", monospace;
+}
+.imagenes{
+    max-width: 100%;
+}
+.fondo {
+    position: relative;
+  }
+  
+.imagenfondo{
+  position: relative;
+  width: 300%;
+  top: 0; 
+  left: -100%; 
+}
+
+.titulo {
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translate(-50%, 0);
+     justify-content: center;
+    padding-top: 50%; 
+    color: white;
+  }
